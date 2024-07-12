@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        HttpHandler http = new HttpHandler("eea12fbe64801e308e2bfe84");
+        HttpHandler http = new HttpHandler("API_KEY");
         Gson gson = new GsonBuilder().create();
         ConversionHistory history = new ConversionHistory();
 
